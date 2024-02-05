@@ -1,24 +1,24 @@
 {
   "audit": {
-    "delicate": "postgresql",
-    "database": "api_dashboard",
-    "host": "10.18.32.18",
+    "delicate": "",
+    "database": "",
+    "host": "",
     "port": 5432,
-    "username": "api_dashboard",
-    "password": "api_dashboard_12321",
+    "username": "",
+    "password": "",
     "auth_file": null,
     "query": null,
     "stream": false,
     "echo": false,
-    "schema": "retention_audits",
-    "table": "hdfs_retention"
+    "schema": "",
+    "table": ""
   },
   "database": {
-    "delicate": "hive",
-    "database": "hive",
-    "host": "10.18.32.21",
-    "port": 9083,
-    "username": "daasuser",
+    "delicate": "",
+    "database": "",
+    "host": "",
+    "port": 9638,
+    "username": "",
     "password": null,
     "auth_file": null,
     "query": null,
@@ -28,27 +28,27 @@
     "table": null
   },
   "ssh": {
-    "host": "10.18.32.18",
+    "host": "",
     "port": 22,
-    "username": "e_erekat",
-    "password": "EnfgbsudqslR8346!&",
+    "username": "",
+    "password": "",
     "auth_key": null
   },
   "workchat": {
-    "url": "https://graph.facebook.com/v4.0/me/messages?",
-    "token": "access_token=DQVJ1OXNMU2Y2LTBKeC1lc1k4Uk5Hc2dOMzlYaUt2ZAjNyQ21vcGN2ZAm5IbllRQ25nc0d0V1JUc0FJYk44UWdZAR0JIUzZA3UHNkUFpHUWF2V01pUmVBTWtwV3A0RHdqWkp0ZAWt6UnNsZAGFZAWmp6WG4tcGY5QzF2YzVEY3YwZAzVXV2sxMXVWZAGxjb1dXdDNRRldKNWNzaFpGNnIwM01PZAUs3RHlGQkVYb0F5Q0dNTUxIbUx0QVZA1T0VETXJxeDdGS1ZACZA3ZAkQ3pfQkhIZAHo2emVvRgZDZD",
+    "url": "",
+    "token": "",
     "proxies": null,
-    "msg": "Dear *Managers*\n Kindly note, A run for the HDFS Automated Retention started a moments ago.",
-    "threads": "5808358515952947"
+    "msg": "",
+    "threads": ""
   },
   "email": {
     "server": "smtp.gmail.com",
     "port": 587,
-    "username": "yazeed.hasan@ligadata.com",
-    "password": "tcxxbsgntltotkzr",
-    "recipients": "mso_dev@ligadata.com,m.tamimi@ligadata.com",
-    "subject": "Auto HDFS Retention On {feed} Started At {date} | {status}",
-    "template": "D:/hdfs_retention_tool_v2/email.txt",
+    "username": "",
+    "password": "",
+    "recipients": "",
+    "subject": "",
+    "template": "",
     "attachments": null
   },
   "data": {
